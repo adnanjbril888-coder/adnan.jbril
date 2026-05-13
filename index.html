@@ -12,7 +12,6 @@
             --whatsapp: #25d366;
             --call: #3b82f6;
             --palestine: #ef4444; 
-            --palpay: #8b5cf6;    
             --jawwalpay: #f97316; 
         }
 
@@ -89,15 +88,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 15px;
-            margin-bottom: 8px;
+            padding: 12px 15px;
+            margin-bottom: 10px;
             background: rgba(255,255,255,0.03);
             border-radius: 10px;
             border-right: 4px solid var(--gold);
         }
 
-        .bank-name { font-size: 0.85rem; color: #cbd5e1; }
-        .bank-num { font-weight: bold; color: #fff; font-family: monospace; font-size: 1rem; }
+        .bank-name { font-size: 0.95rem; color: #cbd5e1; }
+        .bank-num { font-weight: bold; color: #fff; font-family: monospace; font-size: 1.1rem; }
 
         #dashboard { display: none; }
         .info-card {
@@ -159,21 +158,16 @@
         <button class="btn" onclick="login()">دخول الحساب</button>
 
         <div class="payment-methods">
-            <h3 style="color:var(--gold); font-size:1.1rem; margin-bottom:4px;">📍 نقطة البيع: أبو أحمد عبيد</h3>
-            <p style="color:#cbd5e1; font-size:0.8rem; margin-bottom:12px;">وسط أبراج طيبة</p>
+            <h3 style="color:var(--gold); font-size:1.3rem; margin-bottom:4px;">📍 نقطة البيع: أبو أحمد عبيد</h3>
+            <p style="color:#fff; font-size:1.1rem; font-weight:bold; margin-bottom:15px; background: rgba(212, 175, 55, 0.1); display: inline-block; padding: 2px 10px; border-radius: 5px;">وسط أبراج طيبة</p>
             
             <div class="payment-item" style="border-right-color: var(--palestine);">
                 <span class="bank-name">بنك فلسطين:</span>
                 <span class="bank-num">0599466024</span>
             </div>
             
-            <div class="payment-item" style="border-right-color: var(--palpay);">
-                <span class="bank-name">بال بي (PalPay):</span>
-                <span class="bank-num">0595898633</span>
-            </div>
-            
             <div class="payment-item" style="border-right-color: var(--jawwalpay);">
-                <span class="bank-name">جوال بي (JawwalPay):</span>
+                <span class="bank-name">جوال بي:</span>
                 <span class="bank-num">0567466024</span>
             </div>
         </div>
