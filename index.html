@@ -128,7 +128,6 @@
         .wa { background: var(--whatsapp); }
         .ph { background: var(--call); }
 
-        /* تنسيق أزرار التحكم السفلية */
         .action-buttons {
             display: flex;
             gap: 10px;
@@ -160,11 +159,12 @@
         <button class="btn" onclick="login()">دخول الحساب</button>
 
         <div class="payment-methods">
-            <h3 style="color:var(--gold); font-size:1.1rem; margin-bottom:12px;">📍 نقطة البيع: حسين أبو الخير (الحلاق)</h3>
+            <h3 style="color:var(--gold); font-size:1.1rem; margin-bottom:4px;">📍 نقطة البيع: أبو أحمد عبيد</h3>
+            <p style="color:#cbd5e1; font-size:0.8rem; margin-bottom:12px;">وسط أبراج طيبة</p>
             
             <div class="payment-item" style="border-right-color: var(--palestine);">
                 <span class="bank-name">بنك فلسطين:</span>
-                <span class="bank-num">0597233354</span>
+                <span class="bank-num">0599466024</span>
             </div>
             
             <div class="payment-item" style="border-right-color: var(--palpay);">
@@ -174,7 +174,7 @@
             
             <div class="payment-item" style="border-right-color: var(--jawwalpay);">
                 <span class="bank-name">جوال بي (JawwalPay):</span>
-                <span class="bank-num">0595898633</span>
+                <span class="bank-num">0567466024</span>
             </div>
         </div>
     </div>
@@ -214,7 +214,6 @@
         }
     }
 
-    // وظيفة زر الرجوع
     function goBack() {
         document.getElementById('dashboard').style.display = 'none';
         document.getElementById('login-screen').style.display = 'block';
